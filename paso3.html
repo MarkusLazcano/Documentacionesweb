@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Práctica de TESEBADA</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	 <script src="/bootstrap/js/bootstrap.min.js"></script>
+	 <script src ="index.js"></script>
+	<script>
+		function muestra(tema, boton){
+			if(document.getElementById(boton).value=="+"){
+				document.getElementById(tema).style="";
+				document.getElementById(boton).value="-";
+			}
+			else
+			{
+				document.getElementById(tema).style.display="none";
+				document.getElementById(boton).value="+";
+			}		
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="row well">
+			<div class="col-xs-12">
+		
+		<header><h1>Practica TESEBADA</h1></header>
+			</div>
+
+			<div class="col-xs-12">
+			 	<img src="logotec.png" width="150px" align="left">
+			</div>
+		</div>
+	</div>
+<div class="container">
+	<div class="row well">
+	<ul class="nav navbar-nav">
+			<li class="active">
+
+   				 <a href="index.html">Inicio</a>
+
+			</li>
+
+			<li>
+
+  				  <a href="documentaciontesebada.html">Tesebada</a>
+
+			</li>
+
+			<li>
+
+  				  <a href="#">Administracion de Base de Datos</a>
+
+			</li>
+
+			<li>
+
+  				  <a href="#">Mantenimiento de Software</a>
+
+			</li>
+			
+			<li>
+
+  				  <a href="integrantes.html">Integrantes</a>
+
+			</li>
+		
+
+	</ul>
+
+	</div></div>
+
+	<div id="menu">
+		<div class="container">
+		<div class="row well ">
+				<span class='efec'><h1 align="center">Documentación de la práctica TESEBASA</h1></span>
+		</div>
+		</div>
+		</div>
+
+
+	
+		</div>
+	<div class="container">
+		<div class="row well" >
+			
+		<div id="primer" class="col-6 col-xs-9" hidden="" name ="pasos" style="display:block;" >
+			<h1>Importar Base de Datos</h1>
+			<h3>Paso 1 : </h3>
+			<p>
+				Activamos los servicios Apache y MySQL
+			</p>
+			<img src="11.png" alt="">
+			<h3> Paso 2 : </h3>
+			<p>
+				Entramos al SGBD Workbench
+
+			</p>
+			<img src="12.png" alt="">
+		
+			<h3>
+				Paso 3 : 
+			</h3>
+			<p>
+				Entramos al Local Instance , luego nos vamos a Server y luego seleccionamos DataExport,seleccionamos la Bd a exportar y este nos solicitara nuestra contraseña de root
+			</p>
+			<img src="13.png" alt="">
+			<h3>
+				
+			</h3>
+			<img src="14.png" alt="">
+			<h3>
+				
+			</h3>
+			<img src="15.png" alt="">
+			<h3>
+				
+			</h3>
+			<img src="16.png" alt="">
+			<h3>
+				
+			</h3>
+			<h3>Paso 4 : </h3>
+			<p>
+				En la pagina principal de Workbench le damos click al simbolo ( + ) y ponemos la ip del servidor
+			</p>
+			<img src="17.png" alt="">
+			<h3>
+				
+			</h3>
+			<p> Esperamos a que se termine de exportar la base de datos </p>
+			<img src="18.png" alt="">
+			<h3>
+				
+			</h3>
+			<p>Volvemos a la pagina principal de Workbench y entramos a la conexion del servidor, este nos solicitara la contraseña de acceso</p>
+			<img src="19.png" alt="">
+			<h3> Verificar la exportacion : </h3>
+			<p> Creamos una BD con el nombre exacto de la que exportamos anteriormente,nos dirigimos a Server y luego a Data Import , seleccionaremos en donde se exporto la BD , despues de esto seleccionamos abajo cual es la base de datos y le daremos al boton import. </p>
+			<img src="20.png" alt="">
+			<h3>
+				
+			</h3>
+			<img src="21.png" alt="">
+			<h3>
+				
+			</h3>
+			<img src="22.png" alt="">
+			<h3>Paso 5 :</h3>
+			<p> Verificamos desde Putty con el comando "show database_ " , este nos debe mostrar la Base de Datos Correctamente importada</p>
+			<img src="23.png" alt="">
+			<h3>
+				
+			</h3>
+			<img src="24.png" alt="">
+			<h3>
+				
+			</h3>
+			<img src="25.png" alt="">
+		</div>	
+		<div class="col-3 col-xs-3 menu">
+				<ul id="pasos">
+					<li type ="button" name ="01">
+						<a href="paso1.html">
+						Creacion del Dropplet
+						</a>
+					</li>
+					<li name ="02">
+						<a href="paso2.html">
+						Instalar Cliente MySql 
+						</a>
+					</li>
+					
+						<li>
+					<a href="paso3.html">
+						Importar Base de Datos
+					</a>
+					</li>
+					<li name ="07">
+						Finalizar de Instalar Servidor
+					</li>
+
+				</ul>
+			</div>
+
+	</div>		
+	</div>
+</body>		
+		

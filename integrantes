@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Integrantes</title>
+	<link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+	
+	
+  
+  <table class="table">
+<thead>
+	<th>
+		Nombre
+	</th>
+	<th>Apellido</th>
+	<th>Nombre de Usuario</th>
+	<th>Correo</th>
+	<th>Telefono</th>
+</thead>
+<tbody>
+	<tr>
+		<td scope="row">
+			Marco Antonio
+		</td>
+		<td>
+			Lazcano Arreola
+		</td>
+		<td>
+			MarkusLazcano
+		</td>
+		<td>MarkusLazcano@gmail.com</td>
+		<td>123456789</td>
+	</tr>
+</tbody>
+<tbody>
+	<tr>
+		<td scope="row">
+			Josue Isahu
+		</td>
+		<td>
+			Sanchez Medina
+		</td>
+		<td>
+			BlackCold
+		</td>
+		<td>JosueIsahu93@gmail.com</td>
+		<td>876123450</td>
+	</tr>
+</tbody>
+
+  </table>
+
+</body>

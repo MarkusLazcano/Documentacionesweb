@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Práctica de TESEBADA</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	 <script src="/bootstrap/js/bootstrap.min.js"></script>
+	 <script src ="index.js"></script>
+	<script>
+		function muestra(tema, boton){
+			if(document.getElementById(boton).value=="+"){
+				document.getElementById(tema).style="";
+				document.getElementById(boton).value="-";
+			}
+			else
+			{
+				document.getElementById(tema).style.display="none";
+				document.getElementById(boton).value="+";
+			}		
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="row well">
+			<div class="col-xs-12">
+		
+		<header><h1>Practica TESEBADA</h1></header>
+			</div>
+
+			<div class="col-xs-12">
+			 	<img src="logotec.png" width="150px" align="left">
+			</div>
+		</div>
+	</div>
+<div class="container">
+	<div class="row well">
+	<ul class="nav navbar-nav">
+			<li class="active">
+
+   				 <a href="index.html">Inicio</a>
+
+			</li>
+
+			<li>
+
+  				  <a href="documentaciontesebada.html">Tesebada</a>
+
+			</li>
+
+			<li>
+
+  				  <a href="#">Administracion de Base de Datos</a>
+
+			</li>
+
+			<li>
+
+  				  <a href="#">Mantenimiento de Software</a>
+
+			</li>
+			
+			<li>
+
+  				  <a href="integrantes.html">Integrantes</a>
+
+			</li>
+		
+
+	</ul>
+
+	</div></div>
+
+	<div id="menu">
+		<div class="container">
+		<div class="row well ">
+				<span class='efec'><h1 align="center">Documentación de la práctica TESEBASA</h1></span>
+		</div>
+		</div>
+		</div>
+
+
+	
+		</div>
+	<div class="container">
+		<div class="row well" >
+			
+		<div id="primer" class="col-6 col-xs-9" hidden="" name ="pasos" style="display:block;" >
+			<h1> Instalar Cliente MySql</h1>
+			<h3>Paso 1 : </h3>
+			<p>
+				Utilizamos el comando " sudo mysql -u root -p" para instalar el cliente de MySql
+			</p>
+			<img src="02.png" alt="">
+			<h3> Paso 2 : </h3>
+			<p>
+				Procedemos a instalar "mysql-client-core-5.6"				
+
+			</p>
+			<img src="03.png" alt="">
+			<h3> 
+
+			</h3>
+			<img src="04.png" alt="">
+			
+		
+			
+		</div>	
+		<div class="col-3 col-xs-3 menu">
+				<ul id="pasos">
+					<li type ="button" name ="01">
+						<a href="paso1.html">
+						Creacion del Dropplet
+						</a>
+					</li>
+					<li name ="02">
+						<a href="paso2.html">
+						Instalar Cliente MySql 
+						</a>
+					</li>
+					<li>
+					<a href="paso3.html">
+						Importar Base de Datos
+					</a>
+					</li>
+					<li name ="07">
+						Finalizar de Instalar Servidor
+					</li>
+
+				</ul>
+			</div>
+
+	</div>		
+	</div>
+</body>		
+		

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Práctica de TESEBADA</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	 <script src="/bootstrap/js/bootstrap.min.js"></script>
+	 <script src ="index.js"></script>
+	<script>
+		function muestra(tema, boton){
+			if(document.getElementById(boton).value=="+"){
+				document.getElementById(tema).style="";
+				document.getElementById(boton).value="-";
+			}
+			else
+			{
+				document.getElementById(tema).style.display="none";
+				document.getElementById(boton).value="+";
+			}		
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="row well">
+			<div class="col-xs-12">
+		
+		<header><h1>Practica TESEBADA</h1></header>
+			</div>
+
+			<div class="col-xs-12">
+			 	<img src="logotec.png" width="150px" align="left">
+			</div>
+		</div>
+	</div>
+<div class="container">
+	<div class="row well">
+	<ul class="nav navbar-nav">
+			<li class="active">
+
+   				 <a href="index.html">Inicio</a>
+
+			</li>
+
+			<li>
+
+  				  <a href="documentaciontesebada.html">Tesebada</a>
+
+			</li>
+
+			<li>
+
+  				  <a href="#">Administracion de Base de Datos</a>
+
+			</li>
+
+			<li>
+
+  				  <a href="#">Mantenimiento de Software</a>
+
+			</li>
+			
+			<li>
+
+  				  <a href="integrantes.html">Integrantes</a>
+
+			</li>
+		
+
+	</ul>
+
+	</div></div>
+
+	<div id="menu">
+		<div class="container">
+		<div class="row well ">
+				<span class='efec'><h1 align="center">Documentación de la práctica TESEBASA</h1></span>
+		</div>
+		</div>
+		</div>
+
+
+	
+		</div>
+	<div class="container">
+		<div class="row well" >
+			
+		<div id="primer" class="col-6 col-xs-9" hidden="" name ="pasos" style="display:block;" >
+			<h1> Creacion del Dropplet</h1>
+			<h3>Paso 1 : </h3>
+			<p>
+				Accedemos a la pagina Digitalocean.com, creamos un nuevo usuario con nuestro correo electronico, despues esperamos un momento para que nos llegue la confirmacion de nuestros datos. Para poder crear un droplet tenemos que dar de alta una tarjeta de credito o debito y esperar la confirmacion para poder crear uno. Seleccionamos la opcion de pago de nuestro servidor.
+			</p>
+			<img src="" alt="">
+		</div>	
+		<div class="col-3 col-xs-3 menu">
+				<ul id="pasos">
+					<li type ="button" name ="01">
+						<a href="paso1.html">
+						Creacion del Dropplet
+						</a>
+					</li>
+					<li name ="02">
+						Instalar MySql 
+					</li>
+					<li name ="03">
+						Instalar Cliente MySql
+					</li>
+					<li name ="04">
+						Ingresar a MySql
+					</li>
+					<li name ="05">
+						Mostrar Contenido en MySql
+					</li>
+					<li name ="06">
+						Cambiar Contraseña Primer Ingreso
+					</li>
+					<li name ="07">
+						Finalizar de Instalar Servidor
+					</li>
+
+				</ul>
+			</div>
+
+	</div>		
+	</div>
+</body>		
+		
